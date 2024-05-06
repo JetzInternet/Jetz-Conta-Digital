@@ -86,5 +86,23 @@ dúvida ou precisar de assistência. Estamos aqui para ajudar.</br>
         <mj-image src="https://jetzinternet.github.io/Jetz-Conta-Digital/imagens/aplicativo.png" width="300px"></mj-image>
       </mj-column>
     </mj-section>
+
+    <mj-section background-color="#ff8c00">
+    <mj-column width="600px">
+      <mj-text font-family="Calibri" font-size="18px" align="center" color="white">
+  <br><b>Esta mensagem, incluindo os seus anexos, podem conter</br>
+informações  confidenciais  ao indivíduo e é protegida por lei. Se</br>
+você não é o destinatário  dessa   mensagem, fica desde já</br>
+notificado de que não poderá utilizar, copiar  ou divulgar</br>
+informações e os conteúdos dos documentos. É  terminantemente </br>
+proibida a   utilização,   acesso, cópia ou divulgação das </br>
+informações  presentes  nesta mensagem.</br>
+<br>
+<br>Por favor, não responda a este e-mail, caso necessite, entre em</br>
+contato pelo e-mail: financeiro@jetzinternet.com.br.</b></br>
+
+    </mj-text>
+    </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
