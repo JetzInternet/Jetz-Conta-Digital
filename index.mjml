@@ -2,7 +2,7 @@
   <mj-body>
    <mj-section background-color="#ff8c00" background-size="cover" background-repeat="no-repeat">
     <mj-column>
-    <mj-image src="imagens/Nori.png" width="600px" />
+    <mj-image src="imagens/nori.png" width="600px" />
     </mj-column>
     </mj-section>
 
@@ -10,26 +10,28 @@
     <mj-column width="600px">
     <mj-text font-family="Calibri"   font-size="20px" >
 <br>Olá <b>[[nome_completo_cliente]]</b>,</br>
-    sua Conta Digital e Nota Fiscal já estão disponiveis.</br>
-
+sua Conta Digital e Nota Fiscal já estão disponiveis.</br>
+<br>
 <br>Caso já tenha realizado o pagamento, por favor, desconsidere</br>
 este aviso.</br>
-
+<br>
 <br>Você pode efetuar o pagamento da fatura em qualquer</br>
 correspondente bancário, mesmo após a data de vencimento!</br>
-
-<br>Para facilitar o pagamento, utilize o código de barras abaixo:</br>
-<b>Código de Barras: [[linha_digitavel]]</b></br>
-
-<br>Para visualizar a fatura em formato PDF, basta <b>clicar no link</b></br>
-<b>abaixo: </b>[[link_fatura]]</br>
-
+<br>
+<br>Para facilitar o pagamento, utilize o </br>
+<b>código de Barras:[[linha_digital]]</b></br>
+<br>
+<br>Clique aqui para visualizar sua fatura em PDF:</br>
+</b>[[link-fatura]]</br>
+<br>
 <br>Caso já tenha realizado o pagamento, por favor, desconsidere</br>
 este aviso.</br>
-
+<br>
 <br>Fique à vontade para entrar em contato conosco se tiver alguma</br>
 dúvida ou precisar de assistência. Estamos aqui para ajudar.</br>
+<br>
 <br>Até mais,</br>
+
     </mj-text>
     <mj-text font-style="italic"
                    font-family="Calibri"
@@ -52,23 +54,37 @@ dúvida ou precisar de assistência. Estamos aqui para ajudar.</br>
       </mj-social-element>
       <mj-social-element icon-size="35px" src="https://jetzinternet.github.io/Jetz-Aniversario/imagens/wpp.png" href="https://api.whatsapp.com/send/?phone=5591981224040&text&type=phone_number&app_absent=0">
       </mj-social-element>
-    </mj-social>
+    </mj-social> 
+    </mj-section>
     
-    <mj-text font-style="Calibri"
+    <mj-section background-color="white">
+     <mj-raw>
+        <!-- right paragraph -->
+      </mj-raw>
+      <mj-column>
+       <mj-text font-style="Calibri"
                    font-family="Calibri"
                    font-size="30px"
                    color="#ff8c00">
       <br><b>Baixe o App Jetz</br>
       e facilite o seu</br>
       dia a dia.</br>
-    </mj-text >
-      <mj-image src="imagens/aplicativo.png" width="300px"/>
-    <mj-social>
-        <mj-social-element icon-size="150px" src="https://jetzinternet.github.io/Notas-Fiscais/imagens/applestore.png" href="https://apps.apple.com/br/app/jetz-internet-mobile/id6450320022">
+      </mj-text >
+
+         <mj-social>
+        <mj-social-element icon-size="100px" font-size="15px" src="https://jetzinternet.github.io/Notas-Fiscais/imagens/applestore.png" href="https://apps.apple.com/br/app/jetz-internet-mobile/id6450320022">
         </mj-social-element>
-        <mj-social-element icon-size="150px" src="https://jetzinternet.github.io/Notas-Fiscais/imagens/playstore.png" href="https://play.google.com/store/apps/details?id=com.hubsoft_client_app.jetzinternet">
+        <mj-social-element icon-size="100px" src="https://jetzinternet.github.io/Notas-Fiscais/imagens/playstore.png" href="https://play.google.com/store/apps/details?id=com.hubsoft_client_app.jetzinternet">
         </mj-social-element>
       </mj-social>
       </mj-column>
+
+       <mj-raw>
+        <!-- Left image -->
+      </mj-raw>
+      <mj-column width="300px">
+        <mj-image src="https://jetzinternet.github.io/Jetz-Conta-Digital/imagens/aplicativo.png" width="300px"></mj-image>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
