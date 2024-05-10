@@ -68,9 +68,9 @@ dúvida ou precisar de assistência. Estamos aqui para ajudar.</br>
       </mj-text >
 
          <mj-social align="left" mode="horizontal">
-        <mj-social-element icon-size="100px" font-size="15px" src="https://jetzinternet.github.io/Notas-Fiscais/imagens/applestore.png" href="https://apps.apple.com/br/app/jetz-internet-mobile/id6450320022">
+        <mj-social-element icon-size="100px" font-size="15px" src="imagens/apple.png" href="https://apps.apple.com/br/app/jetz-internet-mobile/id6450320022">
         </mj-social-element>
-        <mj-social-element icon-size="100px" src="https://jetzinternet.github.io/Notas-Fiscais/imagens/playstore.png" href="https://play.google.com/store/apps/details?id=com.hubsoft_client_app.jetzinternet">
+        <mj-social-element icon-size="100px" src="imagens/google.png" href="https://play.google.com/store/apps/details?id=com.hubsoft_client_app.jetzinternet">
         </mj-social-element>
       </mj-social>
       </mj-column>
